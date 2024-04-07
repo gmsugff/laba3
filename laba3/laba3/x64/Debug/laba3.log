@@ -1,0 +1,34 @@
+﻿  Source.cpp
+  Y.cpp
+C:\Users\User\source\repos\laba3\laba3\Source.cpp(3,10): error C1083: Не удается открыть файл включение: httplib.h: No such file or directory,
+C:\Users\User\source\repos\laba3\laba3\Y.h(4,13): error C2653: httplib: не является именем класса или пространства имен
+  (компиляция исходного файла "Y.cpp")
+  
+C:\Users\User\source\repos\laba3\laba3\Y.h(4,22): error C2061: синтаксическая ошибка: идентификатор "Client"
+  (компиляция исходного файла "Y.cpp")
+  
+C:\Users\User\source\repos\laba3\laba3\Y.h(5,10): error C2061: синтаксическая ошибка: идентификатор "string"
+  (компиляция исходного файла "Y.cpp")
+  
+C:\Users\User\source\repos\laba3\laba3\Y.h(6,16): error C2061: синтаксическая ошибка: идентификатор "string"
+  (компиляция исходного файла "Y.cpp")
+  
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(3,14): error C2653: httplib: не является именем класса или пространства имен
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(3,29): error C2761: "void Y::From(void)": повторное объявление члена запрещено.
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(3,23): error C2065: geoCli: необъявленный идентификатор
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(3,31): error C2065: string: необъявленный идентификатор
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(3,38): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "cityNameFrom"
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(4,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(4,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(29,19): error C2761: "void Y::To(void)": повторное объявление члена запрещено.
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(29,12): error C2065: string: необъявленный идентификатор
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(29,19): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "cityNameTo"
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(29,50): error C2653: httplib: не является именем класса или пространства имен
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(30,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(30,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(57,25): error C2761: "void Y::CodeFrom(void)": повторное объявление члена запрещено.
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(57,18): error C2065: string: необъявленный идентификатор
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(57,25): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "YA_API_KEY"
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(58,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\User\source\repos\laba3\laba3\Y.cpp(58,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+  Создание кода...

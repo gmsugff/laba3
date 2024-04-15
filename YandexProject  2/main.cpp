@@ -20,16 +20,16 @@ int main() {
 		 request += "&from=" = this->getCityCode(this ->getLatLon(this->cityFrom));
 		 request += "&to=" +this->getCityCode(this ->getLatLon(this->cityTo));
 		 json result = this->makeRequest(this->yandexSchedullelient, request);
-		 std::map <sd::string, std::string> raceTitle;
-		 std::map <sd::string, std::string> raceNember;
-		 std::map <sd::string, std::string> transportType;
-		 std::map <sd::string, std::string> code;
-		 std::map <sd::string, std::string> uid; 
-		 std::map <sd::string, std::string> end_time;
-		 std::map <sd::string, std::string> begin_time;
-		 std::map <sd::string, std::string> has_transfers;
-		 std::map <sd::string, std::string> currency;
-		 std::map <sd::string, std::string> price
+		 std::map <std::string, std::string> raceTitle;
+		 std::map <std::string, std::string> raceNember;
+		 std::map <std::string, std::string> transportType;
+		 std::map <std::string, std::string> code;
+		 std::map <std::string, std::string> uid; 
+		 std::map <std::string, std::string> end_time;
+		 std::map <std::string, std::string> begin_time;
+		 std::map <std::string, std::string> has_transfers;
+		 std::map <std::string, std::string> currency;
+		 std::map <std::string, std::string> price
 		
 		 for (int i = 0; i < result["segments"].size(); i++) {
 			 std::vector<std::map<std::string, std::string>>race{};
